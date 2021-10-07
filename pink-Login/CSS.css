@@ -1,0 +1,108 @@
+body{
+    background-color: #99154E;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white ;
+    margin-bottom: 50PX;
+} 
+    fieldset{
+        border: none;
+    }
+    span{
+        font-family: cursive;
+        font-size:medium ;
+        position: static;
+        font-weight: bold; 
+    }
+    .endButton{
+             border-radius: 15px;
+             background: #99154e;
+             box-shadow:  7px 7px 12px #630e33,
+                          -7px -7px 12px #cf1c69;
+             border: 1px;    
+             color: #ffffff;
+             padding: 7px 14px 7px 14px;  
+             font-size: large;
+             font-family:cursive ;
+             margin-left: 10px;
+    }
+    .endButton:active{
+        background-color: #840d41
+    }
+#iconm{
+    position: absolute;
+}
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    padding: 10px 5px 10px 30px;
+    font-family: cursive;
+}
+.user{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow:  7px 7px 12px #630e33,
+        -7px -7px 12px #cf1c69;   
+}
+.fields span {
+    margin: 15px 20px 20px 10px;
+}
+@media screen and (max-width : 500px){
+    h1{
+        font-size: 40px;
+        margin-bottom: 30PX;
+    }
+    span{
+        font-size: small;
+    }
+    .fields input {
+        font-size: 14px;
+        padding: 10px 0px 10px 30px;
+        width: 70%;
+    }
+    .user{
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    #iconm{
+        font-size: small;
+    }
+    .fields span {
+        margin: 10px;
+    }
+    .endButton{
+        border-radius: 10px;
+        padding: 7px 14px;  
+        font-size: small;
+        margin-left: 10px;
+}    }
+@media screen and (max-width : 300px){
+    h1{
+        font-size: 25px;
+        margin-bottom: 20PX;
+    }
+    .fields input {
+        font-size: 10px;
+        width: 60%;
+    }
+    #passWordError{
+        font-size: x-small;
+    }
+    .endButton{
+        padding: 4px 7px 4px 7px;  
+        font-size: x-small;
+        margin-left: 5px;
+}
+#iconm{
+    font-size: x-small;
+}}
