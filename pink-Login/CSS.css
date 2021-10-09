@@ -4,6 +4,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding:0;
 }
 
 h1{
@@ -72,13 +74,17 @@ h1{
 
 
 @media screen and (max-width : 500px){
+    
     h1{
         font-size: 40px;
         margin-bottom: 30PX;
+        color: white ;
     }
     
     span{
         font-size: small;
+        position: static;
+        font-weight: bold; 
     }
     
     .fields input {
@@ -104,7 +110,9 @@ h1{
         border-radius: 10px;
         padding: 7px 14px;  
         font-size: small;
-        margin-left: 10px;
+        margin-left: 10px;        
+        color: #ffffff;
+        font-family:cursive ;
 } 
 }
 
@@ -114,6 +122,7 @@ h1{
     h1{
         font-size: 25px;
         margin-bottom: 20PX;
+        color: white ;
     }
     
     .fields input {
@@ -128,7 +137,9 @@ h1{
     .endButton{
         padding: 4px 7px 4px 7px;  
         font-size: x-small;
-        margin-left: 5px;
+        margin-left: 5px;        
+        color: #ffffff;
+        font-family:cursive ;
 }
     
 #iconm{
