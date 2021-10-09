@@ -1,9 +1,6 @@
 var $ = document;
-
 var SignInForm = $.getElementById('SignInForm');
-
 var signUpForm = $.getElementById('SignUpForm');
-
 
 
 function signUpFunc(){
@@ -12,25 +9,17 @@ function signUpFunc(){
 }
 
 
-
-
 function SignUpFunc(){
    SignInForm.style.display="none";
    SignUpForm.style.display="block";
 }
 
-
-
-
+// --------------------------------------------------
 
 var passWord = $.getElementById('passWord');
-
 var passWordError = $.getElementById('passWordError');
-
 var signIn = $.getElementById('signIn');
-
 var signUp = $.getElementById('signUp');
-
 
 
 
